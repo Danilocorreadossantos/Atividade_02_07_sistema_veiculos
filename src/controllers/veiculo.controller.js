@@ -3,7 +3,7 @@ const veiculosModel = require("../models/veiculo.model")
 
 async function listar(request, response) {
   // Chamar a função listarTodosCursos do model
-  const veiculos = await cursoModel.listarTodosCursos()
+  const veiculos = await veiculosModel.listarTodosVeiculos()
 
   console.log(veiculos)
   

@@ -2,7 +2,7 @@
 const express = require('express')
 
 // Importação dos controllers
-const veiculoController = require('./controllers/curso.controller')
+const veiculoController = require('./controllers/veiculo.controller')
 
 // Criando uma instância do express
 const app = express()
