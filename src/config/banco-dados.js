@@ -6,7 +6,7 @@ const conexao = mysql.createConnection({
     host: 'localhost', // endereço do servidor
     user: 'root', // usuario do banco de dados
     password: 'root', //senha banco de dados
-    database: 'sistema_conceicionaria' // nome do banco de dados
+    database: 'sistema_concessionaria' // nome do banco de dados
 })
 
 // exportar essa conexao para ser utilizada em outros arquivos (model)

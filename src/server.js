@@ -15,12 +15,12 @@ app.set("views", "./src/views")
 
 
 // Cursos
-app.get('/cursos', veiculoController.listar);
-app.post('/cursos', veiculoController.criar);
-app.delete('/cursos/:id', veiculoController.deletar);
-app.put('/cursos/:id', veiculoController.atualizar);
+app.get('/veiculos', veiculoController.listar);
+app.post('/veiculos', veiculoController.criar);
+app.delete('/veiculos/:id', veiculoController.deletar);
+app.put('/veiculos/:id', veiculoController.atualizar);
 
 
 app.listen(3001, function() {
-  console.log("Servidor rodando na porta 3000")
+  console.log("Servidor rodando")
 })
