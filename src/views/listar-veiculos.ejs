@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Veiculos</title>
+</head>
+<body>
+    <h1>Lista de Veiculos</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Modelo</th>
+                <th>Ano</th>
+                <th>Placa</th>
+                <th>Cor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% veiculos.forEach(function(veiculo) {%>
+                <tr>
+                    <td><%= veiculo.id %></td>
+                    <td><%= veiculo.modelo%></td>
+                    <td><%= veiculo.ano%></td>
+                    <td><%= veiculo.placa%></td>
+                    <td><%= veiculo.cor%></td>
+                </tr>
+            <%}) %>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
